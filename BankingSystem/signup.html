@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <video autoplay muted loop id="background-video">
+        <source src="C:\Users\bhavi\Downloads\vecteezy_close-up-image-of-a-woman-hand-business-use-the-phone-with_7872702.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <header>
+        <h1>Banking App</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="account.html">Account Details</a></li>
+                <li><a href="transactions.html">Transactions</a></li>
+                <li><a href="employees.html">Employees</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-container">
+            <form id="centered-form" action="addUser" method="post">
+                <h2>Sign Up</h2>
+                <input type="text" id="first-name" placeholder="First Name" required>
+                <input type="text" id="last-name" placeholder="Last Name" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <input type="text" id="phone" placeholder="Phone Number" required>
+                <input type="text" id="address" placeholder="Address" required>
+                <button type="submit" class="transparent-button">Sign Up</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Banking App. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
